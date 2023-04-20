@@ -1,6 +1,56 @@
-# application architecture
-![react-redux-login-register-example-redux-toolkit-flow](https://user-images.githubusercontent.com/64264883/216010900-b6d5d7f7-f7fa-4fcb-a7d5-9934bdb2d33b.png)
+# User Authentication with Redux Toolkit
+Authentication workflow built with the MERN stack & Redux Toolkit. [Project demo here](https://redux-user-auth.netlify.app/)
 
-## react application tree
+![Redux Toolkit authentication demo](https://blog.logrocket.com/wp-content/uploads/2022/06/introduction-app-demo.gif)
 
-![react-redux-app](https://user-images.githubusercontent.com/64264883/216011651-d3d1651e-c692-4cc8-97d1-76bba0f0e72a.png)
+## Features
+* User Login & Register
+* Protected routes with React Router v6
+* JWT storage with localStorage
+* Automatically fetches user details on page load (Header.js)
+* Redux Toolkit's `createAsyncThunk`
+
+## Usage
+### Starter files
+Clone the `starter-files` branch with the following command:
+
+```bash
+git clone --branch starter-files --single-branch https://github.com/Chinwike1/redux-user-auth.git
+```
+
+### ES Modules in Node
+ECMAScript is used on the backend instead of CommonJS. This requires you to add the `.js` extension when importing a file — not package.
+
+### MongoDB Setup
+[Getting started with MongoDB Atlas](https://www.mongodb.com/docs/atlas/getting-started/)
+
+### Environment Variables
+```
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = 'insert_your_mongodb_uri'
+JWT_SECRET = "any_string"
+```
+
+### Install Dependencies
+Backend & Frontend
+```
+  npm install
+  cd frontend
+  npm install
+```
+
+### Available Scripts
+```bash
+  # Run frontend (:3000) & backend (:5000)
+  npm run dev
+
+  # Run backend only
+  npm run server
+
+  # Run frontend only
+  npm run client
+```
+
+## License
+GPL-3.0 — Open source license. Software can be used, copied, modified, e.t.c, free of charge.
