@@ -15,7 +15,7 @@ Authentication workflow built with the MERN stack & Redux Toolkit. [Project demo
 Clone the `starter-files` branch with the following command:
 
 ```bash
-git clone --branch starter-files --single-branch https://github.com/Chinwike1/redux-user-auth.git
+git clone --branch starter-files --single-branch https://github.com/Bria222/React-Redux-Toolkit-Login-Register.git
 ```
 
 ### ES Modules in Node
